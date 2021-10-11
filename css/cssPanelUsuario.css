@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Slabo+27px');
+
+body{
+	--primary:#FFF282;
+	--secondary:#FFD353;
+}
+
+*{
+	background:var(--primary) ;
+}
+
+.header{
+	height: 200px;
+	background:var(--primary);
+}
+
+.nav{
+	height: 100px;
+	background: var(--secondary);
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.nav-btn{
+	background: var(--secondary);
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 20px;
+	color: black;
+	height: 100px;
+	padding-top: 40px;
+}
+
+.textnav{
+	background: var(--secondary);
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 20px;
+	color: black;
+	height: 100px;
+	padding-top: 40px;
+}
+
+.main{
+	background: var(--secondary);
+}
+
+.aside{
+	background: var(--secondary);
+}
+
+.option{
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	background: var(--secondary);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.img{
+	background:var(--primary);
+	height: 200px;
+}
+
+.footer{
+	height: 150px;
+	background: black;
+	margin-top: 20px;
+}
+
+.contacto{
+	color: white;
+	margin-left: 50px;
+	background: black;
+
+}
+
+.nav-btn:hover{
+	background: var(--primary);
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.option:hover{
+	background: var(--primary);
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.fan{
+	border-radius: 10px;
+}
+
+.link{
+	background: black;
+}
+
+.textoFooter{
+	background: black;
+	color: white;
+}
+
+.text{
+	background: var(--secondary);
+	padding-top: 10px;
+	padding-left: 70px;
+	padding-right: 10px;	
+}
+
+.hr{
+	background: red;
+	height: 3px;
+}
+
+.datos h1{
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 10px; 
+	background: var(--secondary);
+}
+
+.btn1{
+	background: var(--secondary);
+}
+
+.btns{
+	padding: 20px;
+	font-family: 'Lora', serif;
+	margin-top: 10px; 
+	border-radius: 25px;
+	border: 2px solid black ;
+}
+
+.btns:hover{
+	font-size: 25px;
+	cursor: pointer;
+	border: 2px solid black ;
+}
+
+.tablas{
+	border: 2px solid black;
+	border-radius: 20px;
+	padding-top: 30px;
+
+}
+
+.tablas th{
+	border: 2px	solid black;
+	background: var(--primary);
+	text-align: center;
+}
+
+.tablas td{
+	border: 2px	solid black;
+	background: white;
+	font-family: 'Lora', serif;
+	text-align: center;
+}
+
+.tablas tr{
+	border: 2px	solid black;
+	background: white;
+}
+
+.divTable{
+	padding-top: 40px;
+	background: var(--secondary);
+}
+
+.formularios{
+	background: var(--secondary);
+}
+
+.formularios label{
+	font-family: 'Lora', serif;
+}
+
+.btActualizar{
+	font-family: 'Lora', serif;
+	border-radius: 25px;
+}
+
+.btActualizar:hover{
+	cursor: pointer;
+	border: 2px solid black ;
+}
+
+.formularios input:hover{
+	border: 3px solid #1668c4;
+}
+
+.error{
+	background: var(--secondary);
+	color: red;
+}
+
+.error ul, li{
+	background: var(--secondary);
+}
